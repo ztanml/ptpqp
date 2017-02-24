@@ -16,7 +16,7 @@ NOTE: the other tensor methods take time to run. Consider running this script on
 To run the crowdsourcing experiment, download the datasets and framework at: https://github.com/zhangyuc/SpectralMethodsMeetEM.
 In the framework, replace the calls to tensor power method with the functions defined here. 
 
-### Main files:
+### Main files
 - ptpqp.m  --- implements the proposed PTPQP algorithm
 - tpqp.m   --- same as above but without partitioning
 
