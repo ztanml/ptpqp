@@ -1,5 +1,5 @@
 # PTPQP
-This Partitioned Tensor Parallel Quadratic Programming (PTPQP)
+This repository contains the implementation of Partitioned Tensor Parallel Quadratic Programming (PTPQP)
 
 ## License
 This software is distributed under the terms of the MIT license. See the COPYRIGHT file for details.
