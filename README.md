@@ -17,14 +17,14 @@ To run the crowdsourcing experiment, download the datasets and framework at: htt
 In the framework, replace the calls to tensor power method with the functions defined here. 
 
 ### Main files:
-ptpqp.m  --- implements the proposed PTPQP algorithm
-tpqp.m   --- same as above but without partitioning
+- ptpqp.m  --- implements the proposed PTPQP algorithm
+- tpqp.m   --- same as above but without partitioning
 
 ### Other files
-no_tenfact.m      --- implements nojd0 and nojd1, obtained from https://github.com/kuleshov/tensor-factorization
-qrj1d.m           --- same as above
-jacobi.m          --- same as above
-tpm.m             --- implements the tensor power method, obtained from https://github.com/kuleshov/tensor-factorization
-nonnegfac-matlab  --- implements Hals, obtained from https://gist.github.com/panisson/7719245
-MELD              --- implements MELD, obtained from https://github.com/judyboon/MELD
+- no_tenfact.m      --- implements nojd0 and nojd1, obtained from https://github.com/kuleshov/tensor-factorization
+- qrj1d.m           --- same as above
+- jacobi.m          --- same as above
+- tpm.m             --- implements the tensor power method, obtained from https://github.com/kuleshov/tensor-factorization
+- nonnegfac-matlab  --- implements Hals, obtained from https://gist.github.com/panisson/7719245
+- MELD              --- implements MELD, obtained from https://github.com/judyboon/MELD
 
