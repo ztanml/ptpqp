@@ -3,7 +3,7 @@ function [ THETA ] = ptpqp( Y, Alpha, k, PiJ, PiS, PiT, npart, Ncate, varargin)
 % Y is the observation matrix
 % Alpha is the Dirichlet concentration parameters
 % k is the number of hidden components
-% PiJ, PiS, PiT are index vectors for the common variables
+% PiJ, PiS, PiT are index vectors for the anchor variables
 % npart is the number of partitions
 % Ncate contains the number of categories for each variable
 % Other options:
