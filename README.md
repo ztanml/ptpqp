@@ -5,7 +5,7 @@ See our paper at: https://arxiv.org/abs/1702.07933
 
 You may cite using the BibTex:
 ```
-@article{Zhao16,
+@article{PTPQP,
   author    = {Zilong Tan and Sayan Mukherjee},
   title     = {Efficient Learning of Graded Membership Models},
   journal   = {CoRR},
