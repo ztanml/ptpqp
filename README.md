@@ -1,6 +1,20 @@
 # PTPQP
 This repository contains the implementation of Partitioned Tensor Parallel Quadratic Programming (PTPQP)
 
+See our paper at: https://arxiv.org/abs/1702.07933
+
+You may cite using the BibTex:
+```
+@article{Zhao16,
+  author    = {Zilong Tan and Sayan Mukherjee},
+  title     = {Efficient Learning of Graded Membership Models},
+  journal   = {CoRR},
+  volume    = {abs/1702.07933},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1702.07933}
+}
+```
+
 ## License
 This software is distributed under the terms of the MIT license. See the COPYRIGHT file for details.
 
