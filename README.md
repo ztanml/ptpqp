@@ -4,14 +4,23 @@ This repository contains the implementation of Partitioned Tensor Parallel Quadr
 See our ICML 2017 paper at: https://arxiv.org/abs/1702.07933
 
 You may cite using the BibTex:
-```
-@inproceedings{Tan17,
-  author =	 {Zilong Tan and Sayan Mukherjee},
-  title =	 {Partitioned Tensor Factorizations for Learning Mixed Membership Models},
-  booktitle =	 {ICML (to appear)},
-  howpublished  = {Available at: \url{https://arxiv.org/pdf/1702.07933.pdf}},
-  year =	 {2017}
+```bibtex
+@InProceedings{tan17a,
+  title = 	 {Partitioned Tensor Factorizations for Learning Mixed Membership Models},
+  author = 	 {Zilong Tan and Sayan Mukherjee},
+  booktitle = 	 {Proceedings of the 34th International Conference on Machine Learning},
+  pages = 	 {3358--3367},
+  year = 	 {2017},
+  editor = 	 {Doina Precup and Yee Whye Teh},
+  volume = 	 {70},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {International Convention Centre, Sydney, Australia},
+  month = 	 {06--11 Aug},
+  publisher = 	 {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v70/tan17a/tan17a.pdf},
+  url = 	 {http://proceedings.mlr.press/v70/tan17a.html}
 }
+
 ```
 
 ## License
