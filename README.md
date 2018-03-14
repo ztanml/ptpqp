@@ -1,7 +1,7 @@
 # PTPQP
 This repository contains the implementation of Partitioned Tensor Parallel Quadratic Programming (PTPQP)
 
-See our ICML 2017 paper at: https://arxiv.org/abs/1702.07933
+See our ICML 2017 paper at: http://proceedings.mlr.press/v70/tan17a/tan17a.pdf
 
 You may cite using the BibTex:
 ```bibtex
