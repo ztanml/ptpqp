@@ -3,26 +3,6 @@ This repository contains the implementation of Partitioned Tensor Parallel Quadr
 
 See our ICML 2017 paper at: http://proceedings.mlr.press/v70/tan17a/tan17a.pdf
 
-You may cite using the BibTex:
-```bibtex
-@InProceedings{tan17a,
-  title = 	 {Partitioned Tensor Factorizations for Learning Mixed Membership Models},
-  author = 	 {Zilong Tan and Sayan Mukherjee},
-  booktitle = 	 {Proceedings of the 34th International Conference on Machine Learning},
-  pages = 	 {3358--3367},
-  year = 	 {2017},
-  editor = 	 {Doina Precup and Yee Whye Teh},
-  volume = 	 {70},
-  series = 	 {Proceedings of Machine Learning Research},
-  address = 	 {International Convention Centre, Sydney, Australia},
-  month = 	 {06--11 Aug},
-  publisher = 	 {PMLR},
-  pdf = 	 {http://proceedings.mlr.press/v70/tan17a/tan17a.pdf},
-  url = 	 {http://proceedings.mlr.press/v70/tan17a.html}
-}
-
-```
-
 ## License
 This software is distributed under the terms of the MIT license. See the COPYRIGHT file for details.
 
@@ -50,3 +30,22 @@ In the framework, replace the calls to tensor power method with the functions de
 - nonnegfac-matlab  --- implements Hals, obtained from https://gist.github.com/panisson/7719245
 - MELD              --- implements MELD, obtained from https://github.com/judyboon/MELD
 
+If you like this problem, consider citing the paper:
+```bibtex
+@InProceedings{tan17a,
+  title = 	 {Partitioned Tensor Factorizations for Learning Mixed Membership Models},
+  author = 	 {Zilong Tan and Sayan Mukherjee},
+  booktitle = 	 {Proceedings of the 34th International Conference on Machine Learning},
+  pages = 	 {3358--3367},
+  year = 	 {2017},
+  editor = 	 {Doina Precup and Yee Whye Teh},
+  volume = 	 {70},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {International Convention Centre, Sydney, Australia},
+  month = 	 {06--11 Aug},
+  publisher = 	 {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v70/tan17a/tan17a.pdf},
+  url = 	 {http://proceedings.mlr.press/v70/tan17a.html}
+}
+
+```
