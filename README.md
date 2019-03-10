@@ -30,7 +30,7 @@ In the framework, replace the calls to tensor power method with the functions de
 - nonnegfac-matlab  --- implements Hals, obtained from https://gist.github.com/panisson/7719245
 - MELD              --- implements MELD, obtained from https://github.com/judyboon/MELD
 
-If you like this problem, consider citing the paper:
+If you like this project, consider citing the paper:
 ```bibtex
 @InProceedings{tan17a,
   title = 	 {Partitioned Tensor Factorizations for Learning Mixed Membership Models},
