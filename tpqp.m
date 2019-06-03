@@ -72,7 +72,7 @@ end
 function Y = pqp_mult(X,Q,Z,tol)
     eigmin = min(eig(Q));
     if eigmin > 0
-        PHI = max(sqrt(diag(Z*inv(Q)*Z')*diag(Q)'/eigmin) - abs(Z), 0)/2 + tol;
+        PHI = max(sqrt(diag(Z*inv(Q)*Z')/eigmin)*diag(Q)' - abs(Z), 0)/2 + tol;
     else
         PHI = tol;
     end
