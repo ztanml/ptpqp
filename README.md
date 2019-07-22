@@ -38,14 +38,7 @@ If you like this project, consider citing the paper:
   booktitle = 	 {Proceedings of the 34th International Conference on Machine Learning},
   pages = 	 {3358--3367},
   year = 	 {2017},
-  editor = 	 {Doina Precup and Yee Whye Teh},
-  volume = 	 {70},
-  series = 	 {Proceedings of Machine Learning Research},
-  address = 	 {International Convention Centre, Sydney, Australia},
-  month = 	 {06--11 Aug},
-  publisher = 	 {PMLR},
-  pdf = 	 {http://proceedings.mlr.press/v70/tan17a/tan17a.pdf},
-  url = 	 {http://proceedings.mlr.press/v70/tan17a.html}
+  volume = 	 {70}
 }
 
 ```
