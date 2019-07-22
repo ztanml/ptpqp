@@ -6,9 +6,9 @@
   * The demo shows how to estimate both the multinomial parameters for each topic as well as the topic proportions of each observation.
   * Dataset: data/n10000d10000k5eps0.05.csv contains 10,000 observations each has 10,000 variables. Each variable takes values {0,1,2} and 5% noise is also added (e.g., draw from a uniform distribution with probability 0.05). The ground truth parameters used to generate the data are also given under data/n10000d10000k5eps0.05_\*.csv.
 
-To run the demo, use the following command (or simply ./run_example.sh in bash):
+To run the demo, decompress the data and use the following command (or simply ./run_example.sh in bash):
 ```bash
-./gdlm -j200 -a output/Est_Alpha.csv -o output/Est_Multinomial.csv -r output/Est_Proportions.csv problems/n10000d10000k5eps0.05.conf
+./gdlm.Platform -j200 -a output/Est_Alpha.csv -o output/Est_Multinomial.csv -r output/Est_Proportions.csv problems/n10000d10000k5eps0.05.conf
 ```
 The command will create multiple threads to process the partitions whose number is specified by -j.
 
