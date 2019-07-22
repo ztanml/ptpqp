@@ -2,6 +2,12 @@
   * Provides Matlab code for the paper: http://proceedings.mlr.press/v70/tan17a/tan17a.pdf
   * Also includes fast precompiled C++ binaries for Linux and MacOS
 
+## A Demo using the Fast C++ Implementation
+
+```
+./gdlm -j200 -a output/Est_Alpha.csv -o output/Est_Multinomial.csv -r output/Est_Proportions.csv problems/n10000d10000k5eps0.05.conf
+```
+
 ## Matlab Code
 ### Requirements
   * The Matlab code requires Tensor Toolbox 2.6 in the MATLAB default PATH. Available at: http://www.sandia.gov/~tgkolda/TensorToolbox/index-2.6.html
