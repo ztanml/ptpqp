@@ -1,15 +1,12 @@
-# PTPQP
-This repository contains the implementation of Partitioned Tensor Parallel Quadratic Programming (PTPQP)
+# Partitioned Tensor Factorization using Orthogonal Procrustes Matching
+  * Provides Matlab code for the paper at: http://proceedings.mlr.press/v70/tan17a/tan17a.pdf
+  * Also includes fast precompiled C++ binaries for Linux and MacOS
 
-See our ICML 2017 paper at: http://proceedings.mlr.press/v70/tan17a/tan17a.pdf
+# Matlab Code
+### Requirements
+  * The Matlab code requires Tensor Toolbox 2.6 in the MATLAB default PATH. Available at: http://www.sandia.gov/~tgkolda/TensorToolbox/index-2.6.html
 
-## License
-This software is distributed under the terms of the MIT license. See the COPYRIGHT file for details.
-
-## Requirements
-Requires Tensor Toolbox 2.6 in the MATLAB default PATH. Available at: http://www.sandia.gov/~tgkolda/TensorToolbox/index-2.6.html
-
-## Usage
+### Usage
 To run the comparison on synthetic data:
 In Matlab, run the script run_comparison.m. You may need to modify the configurations in the scrirpt.
 The result will be saved in data/result.txt.
