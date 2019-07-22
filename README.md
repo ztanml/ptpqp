@@ -1,5 +1,5 @@
 ## Partitioned Tensor Factorization using Orthogonal Procrustes Matching
-  * Provides Matlab code for the paper at: http://proceedings.mlr.press/v70/tan17a/tan17a.pdf
+  * Provides Matlab code for the paper: http://proceedings.mlr.press/v70/tan17a/tan17a.pdf
   * Also includes fast precompiled C++ binaries for Linux and MacOS
 
 ## Matlab Code
